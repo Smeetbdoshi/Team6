@@ -3,33 +3,80 @@
 ## Summary of the Project: 
 In this era of the internet, e-commerce keeps growing. An e-commerce website will put our company and products in the hands of consumers no matter where they are and which device they’re using. Whenever a customer needs a new mobile phone we’ll sell, all they need to do is open their laptop or smartphone, browse through our website and purchase the products they desire. The main aim is to sell mobile phones by creating a larger market, lowering the cost and it could scale up quickly and have unlimited shelf space. 
 ## The project implementation aims to achieve following objectives: 
-•	To design an online mobile phone e-commerce website system.
-
-•	To provide a purchase solution for the mobile customers.
-
-•	To develop a database to store information on mobile products.
-
-•	To demonstrate the functionalities of the E-commerce PhonEra.com website.
++ To design an online mobile phone e-commerce website system.
++ To provide a purchase solution for the mobile customers.
++ To develop a database to store information on mobile products.
++ To demonstrate the functionalities of the E-commerce PhonEra.com website.
 
 ## Technologies Used:
 
 Front-End:
-•	HTML5
-•	CSS
-•	JavaScript
-•	Bootstrap
++	HTML5
++	CSS
++	JavaScript
++	Bootstrap
 
 Back-End:
-•	PHP
-•	MySQL
-The primary technologies used for front-end web development are HTML, CSS, and JavaScript. Web pages are composed of HTML for their structure and content, CSS for their styling and layout, and JavaScript for their interactive and dynamic behaviour.
++	PHP
++	MySQL
 
-Popular options for back-end web development include PHP and MySQL. PHP is a language for creating server-side scripts that can be used to handle form submissions, build dynamic web pages, and communicate with databases. With the help of the database management system MySQL, programmers may save and retrieve data from databases.
-
-For front-end development, developers can design aesthetically pleasing and interactive web pages that function in any browser by using HTML, CSS, and JavaScript. For controlling server-side activities and storing and managing data, PHP and MySQL offer a potent back-end solution.
-
-These technologies work together to create a full-stack web development solution that can run a variety of online apps. Developers can construct modular, scalable apps that are simpler to maintain and upgrade over time by separating the front-end and back-end development.
++ The primary technologies used for front-end web development are HTML, CSS, and JavaScript. Web pages are composed of HTML for their structure and content, CSS for their styling and layout, and JavaScript for their interactive and dynamic behaviour.
++ Popular options for back-end web development include PHP and MySQL. PHP is a language for creating server-side scripts that can be used to handle form submissions, build dynamic web pages, and communicate with databases. With the help of the database management system MySQL, programmers may save and retrieve data from databases.
++ For front-end development, developers can design aesthetically pleasing and interactive web pages that function in any browser by using HTML, CSS, and JavaScript. For controlling server-side activities and storing and managing data, PHP and MySQL offer a potent back-end solution.
++ These technologies work together to create a full-stack web development solution that can run a variety of online apps. Developers can construct modular, scalable apps that are simpler to maintain and upgrade over time by separating the front-end and back-end development.
 
 # How to install and run the project in localhost
+## Step 1:
++ First of all,We need to download and install [Xampp](https://www.apachefriends.org/download.html) from this link.
++ After downloading In the first page, select the components you want to install.
++ ![Screenshot of first page, select components as shown in image](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-how-to-run-php-program-Edureka.png)
++ Select the installation directory so that all the components that you choose will be installed in this directory. (**NOTE: let it be xampp don't change it**)
++ ![Screenshot of directory selection as shown in image](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-Installation-how-to-run-php-program-Edureka-1.png)
++ After that, click on **next** to get **install**
++ Once you are done with Xampp installation, let’s move ahead and see how to run a PHP file in xampp server.
+## Step2:
++	After completion of the installation, you can use the XAMPP Control Panel to start/ stop all servers.
++	Start MySQL and Apache servers.
++	![screenshot of xampp control panel to start/ stop servers](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-Control-Panel-how-to-run-php-program-Edureka-1.jpg)
+## Step3:
+After both servers Apache and MySQL has got started and changed its colour to green follow the following instructions:
++	Minimise the xampp control panel tab.
++	Pull the folder named **ecom** from the git repository.
++	Copy that ecom folder to **htdocs(C:/Program Files/XAMPP/htdocs)**
+
+Some Steps guide you to navigate copying folder to htdocs:
+1.open Windows(C) in file explorer and then you find **xampp** file.
+2.open that xampp file and there you can find **htdocs** folder. copy our ecom project file over there.
+## Step 4: 
+In order to get the dashboard for localhost: [search](http://localhost) in any browser.
+Now run our code, [Open](http://localhost/ecom/) it gets executed.
+For admin our project admin page, [open](http://localhost/ecom/admin_login.php) it gets executed.
++ We created default admin credentials in our database systems. You can acess the admin page from given below credentials
+
++ email: **admin@gmail.com**
++ Password: **admin** 
+
+**That's it! Explore our website..**
+# Total working Functionalities and How to Explore them
+## 1. LOGIN:
+1. The login option is located in the right corner of the website's fixed navbar, which is visible as soon as you access website.
+2. After selecting the login option, you will be prompted for your password and email. Use the following
++ Email: **akhi123@gmail.com**
++ Password: **akhi123**
+## 2. CREATE ACCOUNT:
+1. The Registration option is located in the right corner of the website's fixed navbar, which you may see when you first access website.
+2. When you select the login option, you will be prompted for some basic information, including your username, email address, and password. You will also be prompted to confirm your password by typing it in again exactly as you did the first time.
+3. After entering all of the information, click continue. The login screen will then open, where you must enter the credentials you previously created.
+4. Login will be successful, you can log in at any time using the credentials you created.
+## 3. Products list:
+1. The "Explore Deals & Offers" option can be found in the fixed navbar that is visible when you first visit the website.
+2. Selecting that choice will take you directly to the products list.
+4. There is a list of the products that are offered on our website.
+## 4. Add to Cart:
+1. After Login, By clicking the "Add To Cart" button on each product list, you can add the products that were listed in the products list to your shopping basket.
+2. You can put several items in your shopping basket.
+3. After logging in, the cart button that was accessible on the navbar in the right corner allows you to access your personal cart.
+4. After clicking, you'll be taken to your cart page where you can view the items you've added.
+5. After adding a number of items to your cart, the total cost will be displayed.
 
 
