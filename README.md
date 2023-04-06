@@ -32,7 +32,8 @@ Back-End:
 + First of all,We need to download and install [Xampp](https://www.apachefriends.org/download.html) from this link.
 + After downloading In the first page, select the components you want to install.
 + ![Screenshot of first page, select components as shown in image](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-how-to-run-php-program-Edureka.png)
-+ Select the installation directory so that all the components that you choose will be installed in this directory. (**NOTE: let it be xampp don't change it**)
++ Select the installation directory so that all the components that you choose will be installed in this directory. 
++ (**NOTE: let it be xampp don't change it**)
 + ![Screenshot of directory selection as shown in image](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-Installation-how-to-run-php-program-Edureka-1.png)
 + After that, click on **next** to get **install**
 + Once you are done with Xampp installation, let’s move ahead and see how to run a PHP file in xampp server.
