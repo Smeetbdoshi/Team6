@@ -22,10 +22,10 @@ Back-End:
 +	PHP
 +	MySQL
 
-+ The primary technologies used for front-end web development are HTML, CSS, and JavaScript. Web pages are composed of HTML for their structure and content, CSS for their styling and layout, and JavaScript for their interactive and dynamic behaviour.
-+ Popular options for back-end web development include PHP and MySQL. PHP is a language for creating server-side scripts that can be used to handle form submissions, build dynamic web pages, and communicate with databases. With the help of the database management system MySQL, programmers may save and retrieve data from databases.
-+ For front-end development, developers can design aesthetically pleasing and interactive web pages that function in any browser by using HTML, CSS, and JavaScript. For controlling server-side activities and storing and managing data, PHP and MySQL offer a potent back-end solution.
-+ These technologies work together to create a full-stack web development solution that can run a variety of online apps. Developers can construct modular, scalable apps that are simpler to maintain and upgrade over time by separating the front-end and back-end development.
+1. The primary technologies used for front-end web development are HTML, CSS, and JavaScript. Web pages are composed of HTML for their structure and content, CSS for their styling and layout, and JavaScript for their interactive and dynamic behaviour.
+2. Popular options for back-end web development include PHP and MySQL. PHP is a language for creating server-side scripts that can be used to handle form submissions, build dynamic web pages, and communicate with databases. With the help of the database management system MySQL, programmers may save and retrieve data from databases.
+3. For front-end development, developers can design aesthetically pleasing and interactive web pages that function in any browser by using HTML, CSS, and JavaScript. For controlling server-side activities and storing and managing data, PHP and MySQL offer a potent back-end solution.
+4. These technologies work together to create a full-stack web development solution that can run a variety of online apps. Developers can construct modular, scalable apps that are simpler to maintain and upgrade over time by separating the front-end and back-end development.
 
 # How to install and run the project in localhost
 ## Step 1:
@@ -40,6 +40,7 @@ Back-End:
 +	After completion of the installation, you can use the XAMPP Control Panel to start/ stop all servers.
 +	Start MySQL and Apache servers.
 +	![screenshot of xampp control panel to start/ stop servers](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-Control-Panel-how-to-run-php-program-Edureka-1.jpg)
+
 **NOTE: If there is any MySQL servers installed in your PC please stop them in the system environment and later connect it in Xampp**
 ## Step3:
 After both servers Apache and MySQL has got started and changed its colour to green follow the following instructions:
