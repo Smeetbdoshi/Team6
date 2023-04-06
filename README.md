@@ -49,8 +49,10 @@ After both servers Apache and MySQL has got started and changed its colour to gr
 +	Copy that ecom folder to **htdocs(C:/Program Files/XAMPP/htdocs)**
 
 Some Steps guide you to navigate copying folder to htdocs:
-1.open Windows(C) in file explorer and then you find **xampp** file.
-2.open that xampp file and there you can find **htdocs** folder. copy our ecom project file over there.
+
+1. open Windows(C) in file explorer and then you find **xampp** file.
+2. open that xampp file and there you can find **htdocs** folder. 
+3. copy our ecom project file over there.
 ## Step 4: 
 In order to get the dashboard for localhost: [search](http://localhost) in any browser.
 Now run our code, [Open](http://localhost/ecom/) it gets executed.
