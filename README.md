@@ -1,5 +1,7 @@
 # Team6
 # Poject title: GET MOBILE
+# Contributers: Akhil Jasti (220337366)
+Akhil Jasti (220337366) developed all of the project's code, including the frontend and backend. The following description includes all the specifics of the project, the technologies used to construct it, and instructions for installing and using it.
 ## Summary of the Project: 
 In this era of the internet, e-commerce keeps growing. An e-commerce website will put our company and products in the hands of consumers no matter where they are and which device they’re using. Whenever a customer needs a new mobile phone we’ll sell, all they need to do is open their laptop or smartphone, browse through our website and purchase the products they desire. The main aim is to sell mobile phones by creating a larger market, lowering the cost and it could scale up quickly and have unlimited shelf space. 
 ## The project implementation aims to achieve following objectives: 
@@ -38,6 +40,7 @@ Back-End:
 +	After completion of the installation, you can use the XAMPP Control Panel to start/ stop all servers.
 +	Start MySQL and Apache servers.
 +	![screenshot of xampp control panel to start/ stop servers](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/Xamp-Control-Panel-how-to-run-php-program-Edureka-1.jpg)
+**NOTE: If there is any MySQL servers installed in your PC please stop them in the system environment and later connect it in Xampp**
 ## Step3:
 After both servers Apache and MySQL has got started and changed its colour to green follow the following instructions:
 +	Minimise the xampp control panel tab.
@@ -78,5 +81,24 @@ For admin our project admin page, [open](http://localhost/ecom/admin_login.php) 
 3. After logging in, the cart button that was accessible on the navbar in the right corner allows you to access your personal cart.
 4. After clicking, you'll be taken to your cart page where you can view the items you've added.
 5. After adding a number of items to your cart, the total cost will be displayed.
+## 5. Admin Page:
++ You can access the following three primary features on the admin page:
+1. Add Products
+   _ When you click the "Add Products" button on the admin page's right side and enter the required information, including the product name, price, and uploading the product image on the left side, you may then click the add product button.
+   _ The product and the details you have provided will be uploaded to the products page in the client's website when you click the add product button.
+2. List Products 
+   _ The list of all the products on our website will appear when you click the button labelled "List Products."
+   _ You can delete the products you need to take off our website from the list that is displayed.
+   _ The product will be removed from the website if you click the Delete button that was located next to the product list.
+3. Orders
+   _ You can view a list of all the products that our customers have ordered by clicking the "Orders" button.
+
+**These are the total functionalities which are completely working and connected with Backend**
+## How to Check database tables:
+1. open the xampp control pannel.
+2. click the MySQL server's admin button.
+3. Click on the "mobile" option to access the mobile database.
+4. There are five tables that include information about the administrator, customers, orders, payments, and products.
+5. You can access the relevant information that was saved in the database, those you entered on the front end page by clicking on each table.
 
 
